@@ -32,7 +32,7 @@ project ("sfml-premake")
 			"ws2_32"
 		}
     filter "configurations:Debug"
-        defines {"DEBUG", "ASSETS_PATH assets"}
+        defines {"DEBUG"}
         symbols "On"
 
         links
